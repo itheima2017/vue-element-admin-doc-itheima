@@ -1,0 +1,19 @@
+{
+  "title": "vue-element-admin 商用管理系统 - 技术说明",
+  "author": "传智研究院",
+  "description": "二次开发指导",
+  "language": "zh-hans",
+  "copyright": "江苏传智播客教育科技股份有限公司 &nbsp;版权所有Copyright 2006-2018, All Rights Reserved",
+  "plugins": [
+    "theme-itheima",
+    "splitter",
+    "prism",
+    "expandable-chapters",
+    "-sharing"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": false
+    }
+  }
+}
