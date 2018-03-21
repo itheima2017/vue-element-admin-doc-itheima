@@ -22,6 +22,7 @@ I Your application is running here: http://localhost:8080
 > 打开浏览器 [http://localhost:8080](http://localhost:8080 'target=_brank')
 
 ?> mac系统 ，请 `sudo`
+?> mac系统 ，请 `sudo`
 
 ## 项目目录文件
 
