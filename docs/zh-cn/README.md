@@ -142,7 +142,7 @@ npm install --registry=https://registry.npm.taobao.org
 ### 捐赠
 
 如果你觉得这个项目帮助到了你，你可以帮作者买一杯果汁表示鼓励 :heart:
-[Donate](donate.md)
+[Donate](zh-cn/donate.md)
 
 ### 鸣谢
 
@@ -151,3 +151,9 @@ npm install --registry=https://registry.npm.taobao.org
 本文档参考了 [ANT DESIGN PRO](https://pro.ant.design/)
 
 文档生成通过 [docsify](https://github.com/QingWei-Li/docsify)
+
+### 版权
+
+@传智研究院-研发部
+
+江苏传智播客教育科技股份有限公司 &nbsp;版权所有Copyright 2006-2018, All Rights Reserved
