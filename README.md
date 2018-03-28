@@ -1,3 +1,5 @@
+![logo](./img/logo.png ':no-zoom')
+
 # [vue-element-admin-itheima](https://github.com/itheima2017/vue-element-admin-itheima)
 
 [![vue](https://img.shields.io/badge/vue-2.5.9-brightgreen.svg ':no-zoom')](https://github.com/vuejs/vue)
@@ -6,9 +8,13 @@
 [![GitHub release](https://img.shields.io/github/release/itheima2017/vue-element-admin-itheima.svg ':no-zoom')](https://github.com/itheima2017/vue-element-admin-itheima/releases)
 [![GitHub stars](https://img.shields.io/github/stars/itheima2017/vue-element-admin-itheima.svg?style=social&label=Stars ':no-zoom')](https://github.com/itheima2017/vue-element-admin-itheima)
 
-## 介绍
+## 背景&目标
 
-vue-element-admin-itheima 是一个企业级后台管理方案，集成了 用户、菜单权限、界面权限点、登录、常用界面组件，后端采用 `Java SprintBoot2`。
+提供一套标准的前后端分离模板，这样每次开发新管理项目，有个基础轮子可供使用。
+
+开发人员只要关注新业务构建就行。
+
+当前项目还在不断的从新开项目中抽取经验沉淀，欢迎大家提出宝贵建议 [issues](https://github.com/itheima2017/vue-element-admin-itheima/issues)。
 
 * [在线演示](http://vueAdmin.itcast.cn)
 * [前端代码 Vue](https://github.com/itheima2017/vue-element-admin-itheima)

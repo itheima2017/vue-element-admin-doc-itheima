@@ -1,9 +1,8 @@
 * [简介](zh-cn/README.md)
 * 开发指南
-  * [下载安装](zh-cn/fontend-setup.md)
-  * [快速上手](zh-cn/fontend-new-page.md)
+  * [快速上手](zh-cn/fontend-start.md)
 * 前端说明[Vue SPA]
-  * 搭建框架
+  * 进阶
     * [项目构建](zh-cn/fontend-art.md)
     * [scss 样式](zh-cn/fontend-scss.md)
     * [Layout 布局](zh-cn/fontend-layout.md)
@@ -20,7 +19,7 @@
     * [ESLint](zh-cn/fontend-eslint.md)
     * [错误处理](zh-cn/fontend-err.md)
     * [数据访问](快速上手/fontend-request.md)
-  * 示例程序
+  * 示例
     * [数据列表](常用组件/fontend-table.md)
     * [数据表单](常用组件/fontend-form.md)
 * 后端说明[Java SprintBoot2]
