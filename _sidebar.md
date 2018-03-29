@@ -1,31 +1,38 @@
-* [简介](zh-cn/README.md)
-* 开发指南
-  * [快速上手](zh-cn/fontend-start.md)
-* 前端说明[Vue SPA]
-  * 进阶
-    * [项目构建](zh-cn/fontend-art.md)
-    * [scss 样式](zh-cn/fontend-scss.md)
-    * [Layout 布局](zh-cn/fontend-layout.md)
-    * [导航路由](zh-cn/fontend-router.md)
-    * [菜单权限](zh-cn/fontend-permission-nav.md)
-    * [页面权限点](zh-cn/fontend-permission-point.md)
-    * [icon 图标](zh-cn/fontend-icon.md)
-    * [svg 图标](zh-cn/fontend-svg.md)
-    * [自定义主题](zh-cn/fontend-theme.md)
-    * [18n 国际化](zh-cn/fontend-18n.md)
-    * [路由懒加载](zh-cn/fontend-lazy.md)
-    * [gzip 压缩](zh-cn/fontend-gzip.md)
-    * [mock 数据](zh-cn/fontend-mock.md)
-    * [ESLint](zh-cn/fontend-eslint.md)
-    * [错误处理](zh-cn/fontend-err.md)
+* [简介](README.md)
+* 入门
+  * 前端
+    * [开始使用](getting-started.md)
+    * [布局](layout.md)
+    * [路由和菜单](router-and-nav.md)
+    * [权限设计](permission.md)
+    * [菜单授权](nav-permission.md)
+    * [页面权限点](page-points.md)
+    * [新增页面](new-page.md)
+    * [样式](style.md)
+    * [和服务端进行交互](server.md)
+    * [构建和发布](deploy.md)
+    * [示例说明](example.md)
+  * 后端
+    * [新增接口](new-api.md)
+    * [快速上手](fontend-start.md)
+    * [编译发布](fontend-release.md)
+* 进阶
+  * 前端
+    * [项目结构](fontend-art.md)
+    * [scss 样式](fontend-scss.md)
+    * [页面权限点](fontend-permission-point.md)
+    * [icon 图标](fontend-icon.md)
+    * [svg 图标](fontend-svg.md)
+    * [自定义主题](fontend-theme.md)
+    * [18n 国际化](fontend-18n.md)
+    * [路由懒加载](fontend-lazy.md)
+    * [gzip 压缩](fontend-gzip.md)
+    * [mock 数据](fontend-mock.md)
+    * [ESLint](fontend-eslint.md)
+    * [错误处理](fontend-err.md)
     * [数据访问](快速上手/fontend-request.md)
-  * 示例
-    * [数据列表](常用组件/fontend-table.md)
-    * [数据表单](常用组件/fontend-form.md)
-* 后端说明[Java SprintBoot2]
-
-  * [技术架构说明](java-art.md)
-
-* [更新日志](https://github.com/itheima2017/vue-element-admin-itheima/releases ':ignore')
-* [常见问题](zh-cn/faq.md)
-* [捐赠](zh-cn/donate.md)
+  * 后端
+    * [代码架构](java-art.md)
+* [更新日志](https://github.com/itheima2017/vue-element-admin-itheima/releases)
+* [常见问题](faq.md)
+* [捐赠](donate.md)

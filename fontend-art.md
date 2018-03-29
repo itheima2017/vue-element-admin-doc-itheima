@@ -1,89 +1,51 @@
-# 项目构建
+# 项目结构
 
-## vue-cli 脚手架
+## 后端
 
-```bash
-> npm i -g vue-cli
-> vue init webpack vue-element-admin-itheima
-> cd vue-element-admin-itheima
-> npm i
-
-✔ Installed 58 packages
-✔ Linked 0 latest versions
-✔ Run 0 scripts
-✔ All packages installed (used 27ms, speed 0B/s, json 0(0B), tarball 0B)
-
-> npm satart
-
-DONE  Compiled successfully in 2748ms
-I Your application is running here: http://localhost:8080
-```
-
-> 打开浏览器 [http://localhost:8080](http://localhost:8080 'target=_brank')
-
-?> mac系统 ，请 `sudo`
-
-## 项目目录文件
+## 前端
 
 ```bash
-├── assets
-├── build
-│   ├── build.js
-│   ├── check-versions.js
-│   ├── logo.png
-│   ├── utils.js
-│   ├── vue-loader.conf.js
-│   ├── webpack.base.conf.js
-│   ├── webpack.dev.conf.js
-│   └── webpack.prod.conf.js
-├── cd
-├── config
-│   ├── dev.env.js
-│   ├── index.js
-│   ├── prod.env.js
-│   └── test.env.js
-├── mkdir
-├── src
-│   ├── api
-│   ├── assets
-│   │   └── logo.png
-│   ├── components
-│   │   └── HelloWorld.vue
-│   ├── mixins
-│   ├── module-dashboard
+├── assets                          | 资源
+├── build                           | webpack编译配置
+├── config                          | 全局变量
+├── src                             | 源码
+│   ├── api                         | 数据请求
+│   ├── assets                      | 资源
+│   ├── components                  | 组件
+│   ├── mixins                      | mixins
+│   ├── filters                     | vue filter
+│   ├── icons                       | 图标
+│   ├── lang                        | 多语言
+│   ├── router                      | 路由
+│   ├── store                       | 数据
+│   ├── styles                      | 样式
+│   ├── utils                       | 工具函数库
+│   ├── module-dashboard            | 框架程序
 │   │   ├── assets
 │   │   ├── components
 │   │   ├── pages
 │   │   ├── router
 │   │   └── store
-│   ├── module-example
+│   ├── module-example              | 示例程序
 │   │   ├── assets
 │   │   ├── components
 │   │   ├── pages
 │   │   ├── router
 │   │   └── store
-│   ├── router
-│   │   └── index.js
-│   ├── store
-│   ├── App.vue
-│   └── main.js
-├── static
-├── test
-│   ├── e2e
-│   │   ├── custom-assertions
-│   │   ├── specs
-│   │   ├── nightwatch.conf.js
-│   │   └── runner.js
-│   └── unit
-│       ├── specs
-│       ├── jest.conf.js
-│       └── setup.js
+│   ├── App.vue                     | app
+│   ├── main.js                     | 主引导
+│   └──  errorLog.js                | vue全局错误捕捉
+├── dist                            | 编译发布目录
 ├── README.md
-├── index.html
-└── package.json
+├── index.html                      | 页面模板
+├── package.json                    | npn包配置
+├── static
+└── test                            | 测试
+    ├── e2e
+    └── unit
 ```
 
-## 创建模块目录
+* 创建模块目录
 
 > 每个业务模块独立目录，互不干扰
 >

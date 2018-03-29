@@ -6,9 +6,10 @@
 npm install sass-loader node-sass --save-dev
 ```
 
-## 无需配置 webpack
+## 无需配置
 
-* 已经为我们写好了 `build/utils.js`
+* vue脚手架已经为我们在 `webpack` 中写好了
+* 文件 `/build/utils.js`
 
 ```js
 // https://vue-loader.vuejs.org/en/configurations/extract-css.html
@@ -26,6 +27,14 @@ return {
 ## 使用
 
 ```html
+<template>
+...
+</template>
+
+<script>
+...
+</script>
+
 <style rel="stylesheet/scss" lang="scss" scoped>
 @import "src/styles/mixin.scss";
 .app-wrapper {
