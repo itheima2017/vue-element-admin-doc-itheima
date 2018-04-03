@@ -1,0 +1,19 @@
+{
+  "name": "vue-element-admin-doc-itheima",
+  "version": "1.0.0",
+  "description": "![logo](./img/logo.png ':no-zoom')",
+  "main": "index.js",
+  "scripts": {
+    "start": "docsify serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://itheima2017@github.com/itheima2017/vue-element-admin-doc-itheima.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itheima2017/vue-element-admin-doc-itheima/issues"
+  },
+  "homepage": "https://github.com/itheima2017/vue-element-admin-doc-itheima#readme"
+}

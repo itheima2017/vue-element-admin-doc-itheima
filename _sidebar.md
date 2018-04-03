@@ -1,25 +1,20 @@
 * [简介](README.md)
-* 入门
-  * 前端
-    * [开始使用](getting-started.md)
-    * [布局](layout.md)
-    * [路由和菜单](router-and-nav.md)
-    * [权限设计](permission.md)
-    * [菜单授权](nav-permission.md)
-    * [页面权限点](page-points.md)
-    * [新增页面](new-page.md)
-    * [样式](style.md)
-    * [和服务端进行交互](server.md)
-    * [构建和发布](deploy.md)
-    * [示例说明](example.md)
-  * 后端
-    * [新增接口](new-api.md)
-    * [快速上手](fontend-start.md)
-    * [编译发布](fontend-release.md)
+* 快速开始
+  * [1. 下载&运行](getting-started.md)
+  * [2. 权限说明](permission.md)
+  * [3. 新增模块](create-model.md)
+  * [4. 新增菜单](nav-permission.md)
+  * [5. 新增页面](new-page.md)
+  * [6. 新增权限点](page-points.md)
+  * [7. 新增 SpringBoot2 Rest Api](new-rest-api.md)
+  * [8. 和服务端进行交互](server.md)
+  * [9. 构建和发布](deploy.md)
 * 进阶
   * 前端
     * [项目结构](fontend-art.md)
-    * [scss 样式](fontend-scss.md)
+    * [布局](layout.md)
+    * [路由和菜单](router-and-nav.md)
+    * [样式](style.md)
     * [页面权限点](fontend-permission-point.md)
     * [icon 图标](fontend-icon.md)
     * [svg 图标](fontend-svg.md)
