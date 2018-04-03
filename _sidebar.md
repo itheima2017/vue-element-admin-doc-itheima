@@ -11,7 +11,7 @@
   * [9. 构建和发布](deploy.md)
 * 进阶
   * vue 前端
-    * [项目结构](fontend-art.md)
+    * [项目结构](art.md)
     * [布局](layout.md)
     * [路由和菜单](router-and-nav.md)
     * [样式](style.md)
@@ -22,6 +22,7 @@
     * [图表](chart.md)
     * [错误处理](error.md)
     * [mock 数据](mock-api.md)
+    * [eslint 语法检查](eslint.md)
   * java 后端
     * [代码架构](java-art.md)
     * [权限控制](java-permission.md)
