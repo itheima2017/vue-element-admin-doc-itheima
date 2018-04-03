@@ -35,45 +35,22 @@
   window.$docsify = {
     plugins: [
       function(hook, vm) {
-        hook.doneEach(function() {
-          var hash=window.location.hash
-          var enLink=document.querySelectorAll('[data-translation="en"]')[0]
-          var zhLink=document.querySelectorAll('[data-translation="zh-cn"]')[0]
-          zhLink.className=''
-          enLink.className=''
-          if(hash.indexOf('zh-cn')>=0){
-            var targetPath=hash.split('/zh-cn/')[1]
-            zhLink.className='active'
-          }else{
-            var targetPath=hash.split('#/')[1]
-            enLink.className='active'
-          }
-          enLink.href='#/'+targetPath
-          zhLink.href='#/zh-cn/'+targetPath
-          if(!targetPath|| targetPath==='?id=vue-element-admin-itheima'){
-            var li=document.querySelectorAll('.sidebar-nav ul li ul li')
-            li[0].className='active'
-          }
-        })
       }
     ],
     loadSidebar: true,
     maxLevel: 10,
     auto2top: true,
-    coverpage: ['/', '/zh-cn/'],
+    coverpage: ['/'],
     // homepage: 'getting-started.md',
     name: '黑马Admin',
     repo: 'https://github.com/itheima2017/vue-element-admin-itheima',
     search: {
       noData: {
-        '/zh-cn/': '没有结果!',
-        '/': 'No results!'
+        '/': '没有结果!'
       },
       paths: 'auto',
       placeholder: {
-
-        '/zh-cn/': '搜索',
-        '/': 'Search'
+        '/': '搜索'
       }
     }
   }
