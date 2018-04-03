@@ -6,11 +6,11 @@
   * [4. 新增菜单](nav-permission.md)
   * [5. 新增页面](new-page.md)
   * [6. 新增权限点](page-points.md)
-  * [7. 新增 SpringBoot2 Rest Api](new-rest-api.md)
+  * [7. 新增 Rest API](java-new-api.md)
   * [8. 和服务端进行交互](server.md)
   * [9. 构建和发布](deploy.md)
 * 进阶
-  * 前端
+  * vue 前端
     * [项目结构](fontend-art.md)
     * [布局](layout.md)
     * [路由和菜单](router-and-nav.md)
@@ -26,8 +26,15 @@
     * [ESLint](fontend-eslint.md)
     * [错误处理](fontend-err.md)
     * [数据访问](快速上手/fontend-request.md)
-  * 后端
+  * java 后端
     * [代码架构](java-art.md)
+    * [权限控制](java-permission.md)
+    * [Webflux响应式编程](java-flux.md)
+    * [JWT令牌](java-jwt.md)
+    * [JPA配置](java-jpa.md)
+    * [SpringBoot2说明](java-spring-boot2.md)
+    * [日志处理](java-logs.md)
+    * [错误处理](java-err.md)
 * [更新日志](https://github.com/itheima2017/vue-element-admin-itheima/releases)
 * [常见问题](faq.md)
 * [捐赠](donate.md)
