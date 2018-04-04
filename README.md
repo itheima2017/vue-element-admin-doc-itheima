@@ -1,6 +1,6 @@
-![logo](./img/logo.png ':no-zoom')
+![logo](http://research.itcast.cn/vue-element-admin-doc-itheima/img/logo.png ':no-zoom')
 
-# [vue-element-admin-itheima](https://github.com/itheima2017/vue-element-admin-itheima)
+# [itheima-Admin](https://github.com/itheima2017/vue-element-admin-itheima)
 
 [![vue](https://img.shields.io/badge/vue-2.5.9-brightgreen.svg ':no-zoom')](https://github.com/vuejs/vue)
 [![element-ui](https://img.shields.io/badge/element--ui-2.0.5-brightgreen.svg ':no-zoom')](https://github.com/ElemeFE/element)
@@ -16,13 +16,13 @@
 
 当前项目还在不断的从新开项目中抽取经验沉淀，欢迎大家提出宝贵建议 [issues](https://github.com/itheima2017/vue-element-admin-itheima/issues)。
 
-本项目前端参考了 [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) [PanJiaChen/vueAdmin-template](https://github.com/PanJiaChen/vueAdmin-template)
-
-* [在线演示](http://vueAdmin.itcast.cn)
-* [前端代码 Vue](https://github.com/itheima2017/vue-element-admin-itheima)
-* [后端代码 Java](https://github.com/itheima2017/vue-element-admin-api-java-itheima)
-* [API 文档](http://research.itcast.cn/vue-element-admin-api-doc-itheima/_book/)
-* [帮助文档](http://research.itcast.cn/vue-element-admin-doc-itheima/)
+* [在线演示](http://itheimaAdmin.itcast.cn)
+* 代码
+  * [前端代码 Vue](https://github.com/itheima2017/vue-element-admin-itheima)
+  * [后端代码 Java](https://github.com/itheima2017/vue-element-admin-api-java-itheima)
+* 文档
+  * [API 接口文档](http://research.itcast.cn/vue-element-admin-api-doc-itheima/_book/)
+  * [使用帮助文档](http://research.itcast.cn/vue-element-admin-doc-itheima/)
 
 ## 功能
 
@@ -76,7 +76,13 @@
 
 ## 功能截图
 
+### 快速开始
 
+* [帮助手册/下载&运行](http://research.itcast.cn/vue-element-admin-doc-itheima/#/getting-started)
+
+### 部署
+
+* [帮助手册/构建和发布](http://research.itcast.cn/vue-element-admin-doc-itheima/#/deploy)
 
 ### 参考
 
