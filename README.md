@@ -16,7 +16,7 @@
 
 当前项目还在不断的从新开项目中抽取经验沉淀，欢迎大家提出宝贵建议 [issues](https://github.com/itheima2017/vue-element-admin-itheima/issues)。
 
-* [在线演示](http://itheimaAdmin.itcast.cn)
+* [在线演示](http://research.itcast.cn/itheimaAdmin)
 * 代码
   * [前端代码 Vue](https://github.com/itheima2017/vue-element-admin-itheima)
   * [后端代码 Java](https://github.com/itheima2017/vue-element-admin-api-java-itheima)
@@ -75,6 +75,8 @@
   * jdk 8.++
 
 ## 功能截图
+
+![后台面板](http://or45inefq.bkt.clouddn.com/heima-admin-dashboard.png)
 
 ### 快速开始
 

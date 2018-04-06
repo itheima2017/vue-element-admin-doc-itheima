@@ -1,8 +1,8 @@
 # 布局
+
 了解一个后台项目，先要了解它的基础布局。页面整体布局是一个产品最外层的框架结构，往往会包含导航、侧边栏、面包屑以及内容等。
 
 ## Layout
-![](img/layout.png)
 
 > 对应代码目录: `/src/module-dashboard/pages/layout.vue`
 
