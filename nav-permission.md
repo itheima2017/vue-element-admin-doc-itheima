@@ -32,16 +32,24 @@ export const DashboardRouter = [
 ]
 ```
 
-## 第二步：注册路由 `/src/router/index.js`
+## 第二步：注册路由 `/src/router/routerMaps.js`
 
 ```js
-// 导入模块路由
-import {ExampleRouter} from '@/module-example/router'
 
 /**
- * 合并业务路由
+ * 导入模块路由
  **/
-routerMap = routerMap.concat(ExampleRouter)
+import {DashboardRouter} from '@/module-dashboard/router'// 面板
+
+...
+
+/**
+ * 合并路由
+ **/
+routerMap = routerMap.concat(DashboardRouter) // 面板
+
+...
+
 ```
 
 ## 第三步：菜单管理
