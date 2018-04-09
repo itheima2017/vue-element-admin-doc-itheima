@@ -6,47 +6,19 @@
 
 ## 检查权限点
 
-直接上 `vue` 代码
-
-```html
-<template>
-  <div class="dashboard-container">
-    test
-  </div>
-</template>
-
-<script>
-import { hasPermissionPoint } from '@/utils/permission'
-
-export default {
-  name: 'dashboard',
-  components: {},
-  data() {
-    return {
-    }
-  },
-  computed: {
-  },
-  created() {
-    // 权限点检查
-    let hasList = hasPermissionPoint('base-users-list')
-    console.log(hasList)
-  }
-}
-</script>
-```
-
-* 第一步：导入
+* 第一步：导入 `hasPermissionPoint` 检查函数
 
 ```js
 import { hasPermissionPoint } from '@/utils/permission'
 ```
 
-* 第二步：检查
+* 第二步：检查操作
 
 ```js
 let hasList = hasPermissionPoint('base-users-list')
 console.log(hasList)
 ```
+
+> `hasList` 将会以 `bool` 形式返回是否有权限点
 
 ?> 对于呈现类组件可以结合 `v-if` 指令来控制

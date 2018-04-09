@@ -108,4 +108,4 @@ npm run dev
 
 打开浏览器访问 http://localhost:9527
 
-![](https://wpimg.wallstcn.com/1bc334a6-32a8-4f29-a037-ac3f5ce32588.png)
+![后台面板](http://or45inefq.bkt.clouddn.com/heima-admin-dashboard.png)

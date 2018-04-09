@@ -32,32 +32,12 @@ export const DashboardRouter = [
 ]
 ```
 
-## 第二步：注册路由 `/src/router/routerMaps.js`
-
-```js
-
-/**
- * 导入模块路由
- **/
-import {DashboardRouter} from '@/module-dashboard/router'// 面板
-
-...
-
-/**
- * 合并路由
- **/
-routerMap = routerMap.concat(DashboardRouter) // 面板
-
-...
-
-```
-
-## 第三步：菜单管理
+## 第二步：菜单管理
 
 添加你的新页面 `代码` `标题`
 
 ?> 代码是全局唯一的
 
-## 第四步：权限组授权
+## 第三步：权限组授权
 
 权限组授权中勾选需要的菜单项

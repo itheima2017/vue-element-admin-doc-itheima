@@ -35,3 +35,21 @@
 ```
 
 * `example` 是新模块的名字
+
+## 注册模块
+
+* 编辑 `src/main.js`
+
+```js
+...
+/*
+* 注册 - 业务模块
+*/
+import dashboard from '@/module-dashboard/' // 面板
+Vue.use(dashboard, store)
+...
+```
+
+> 使用 `Vue.use` 方式注册
+>
+> 参数 `store` 表示注册状态管理
