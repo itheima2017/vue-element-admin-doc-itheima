@@ -33,5 +33,5 @@
     * [日志处理](java-logs.md)
     * [错误处理](java-err.md)
 * [更新日志](https://github.com/itheima2017/vue-element-admin-itheima/releases)
-* [常见问题](faq.md)
-* [捐赠](donate.md)
+* [常见问题](https://github.com/itheima2017/vue-element-admin-itheima/issues)
+* [传智研究院](http://research.itcast.cn/)

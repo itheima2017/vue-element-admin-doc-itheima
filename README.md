@@ -1,6 +1,6 @@
-![logo](http://research.itcast.cn/vue-element-admin-doc-itheima/img/logo.png ':no-zoom')
+![logo](http://or45inefq.bkt.clouddn.com/logo-heima150.png ':no-zoom')
 
-# [itheima-Admin](https://github.com/itheima2017/vue-element-admin-itheima)
+<h1> **黑马Admin** 商用后台模板 </h1>
 
 [![vue](https://img.shields.io/badge/vue-2.5.9-brightgreen.svg ':no-zoom')](https://github.com/vuejs/vue)
 [![element-ui](https://img.shields.io/badge/element--ui-2.0.5-brightgreen.svg ':no-zoom')](https://github.com/ElemeFE/element)
@@ -14,7 +14,7 @@
 
 开发人员只要关注新业务构建就行。
 
-当前项目还在不断的从新开项目中抽取经验沉淀，欢迎大家提出宝贵建议 [issues](https://github.com/itheima2017/vue-element-admin-itheima/issues)。
+当前项目还在不断的从线上项目中抽取经验沉淀，欢迎大家提出宝贵建议 [issues](https://github.com/itheima2017/vue-element-admin-itheima/issues)。
 
 * [在线演示](http://research.itcast.cn/itheimaAdmin)
 * 代码
@@ -31,7 +31,6 @@
 * [x] 用户注销
 * [x] 用户菜单权限
 * [x] 用户页面权限点
-* [ ] api鉴权
 * [x] 当前面包靴
 * [x] 多语言支持
 * [x] 全屏显示
@@ -45,6 +44,7 @@
 * [x] 菜单管理
 * [x] 权限管理
 * [x] 日志管理
+* [ ] api鉴权
 
 ## 技术栈
 
@@ -73,6 +73,7 @@
 
 * 后端
   * jdk 8.++
+  * maven 3.++
 
 ## 功能截图
 
@@ -80,11 +81,7 @@
 
 ### 快速开始
 
-* [帮助手册/下载&运行](http://research.itcast.cn/vue-element-admin-doc-itheima/#/getting-started)
-
-### 部署
-
-* [帮助手册/构建和发布](http://research.itcast.cn/vue-element-admin-doc-itheima/#/deploy)
+* [开始阅读](getting-started.md)
 
 ### 参考
 
@@ -94,7 +91,7 @@
 
 ### 版权
 
-[MIT](https://github.com/PanJiaChen/vueAdmin-template/blob/master/LICENSE) license.
+[MIT](https://opensource.org/licenses/MIT)
 
 @传智研究院-研发部
 
