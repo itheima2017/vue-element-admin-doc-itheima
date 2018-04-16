@@ -2,35 +2,37 @@
 
 假设已有模块目录 `/src/module-example`
 
-## 第一步：创建路由
+## 第一步：编辑路由
 
-创建 `/src/module-example/router/index.js`
+打开刚才自动创建的 `/src/module-example/router/index.js`
 
 ```js
 import Layout from '@/module-dashboard/pages/layout'
-const _import = require('@/router/_import_' + process.env.NODE_ENV)
+const _import = require('@/router/import_' + process.env.NODE_ENV)
 
-export const DashboardRouter = [
+export default [
   {
-    path: '/example',
+    path: '/my-admin',
     component: Layout,
     redirect: 'noredirect',
-    name: 'base',
+    name: 'my-admin',
     meta: {
-      title: 'example',
-      icon: 'example'
+      title: 'my-admin',
+      icon: 'component'
     },
     children: [
       {
-        path: 'my',
-        component: _import('example/pages/my'),
-        name: 'example-my',
-        meta: {title: 'my'}
+        path: 'index',
+        component: _import('my-admin/pages/index'),
+        name: 'my-admin-index',
+        meta: {title: 'index'}
       }
     ]
   }
 ]
 ```
+
+?> 在 `children` 下维护你的模块页面路由
 
 ## 第二步：菜单管理
 

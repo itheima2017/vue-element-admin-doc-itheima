@@ -91,7 +91,7 @@
 
 ### 版权
 
-[MIT](https://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT) license.
 
 @传智研究院-研发部
 
