@@ -1,5 +1,15 @@
 # 构建和发布
 
+## 关闭 mock 数据
+
+打开 `/src/main.js` 注释 `mock`
+
+```js
+...
+// import './mock0' // simulation data
+...
+```
+
 ## 构建
 
 当项目开发完毕，只需要运行一行命令就可以打包你的应用：
