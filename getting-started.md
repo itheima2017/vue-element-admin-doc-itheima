@@ -38,19 +38,19 @@ itheima init itheimaAdmin-template my-admin
 
 ?> 本项目是前后端分离，需要先启动后端服务，然后再运行前端项目。
 
-### 1 后端服务
+### 1. java 后端
 
-* 1.1 克隆git
+#### 1.1 克隆项目 git
 
 ```bash
 git clone https://github.com/itheima2017/vue-element-admin-api-java-itheima.git
 ```
 
-* 1.2 新建数据库
+#### 1.2 新建数据库
 
   登录mysql，创建名为 your-database-name 的数据库
 
-* 1.3 修改默认配置
+#### 1.3 修改默认配置
 
 ```bash
 #修改默认配置
@@ -68,7 +68,7 @@ server:
   port: 7999
 ```
 
-* 1.4 初始化数据库
+#### 1.4 初始化数据库
 
 ```bash
 #进入数据库初始化文件目录
@@ -80,7 +80,7 @@ mysql -uroot -proot < init.sql
 
 > mysql -u账号 -p密码 -D数据库名称 < sql文件路径
 
-* 1.5 打包及运行
+#### 1.5 打包及运行
 
 ```bash
 #进入项目目录
@@ -91,9 +91,15 @@ mvn clean package
 
 ```
 
-### 2 前端项目
+#### 1.6 运行服务
 
-* 2.1 克隆git
+```bash
+nohup ./your-project/target/vue-element-admin-api-1.0.0.jar
+```
+
+### 2. VUE 前端
+
+#### 2.1 克隆项目 git
 
 ```bash
 # 克隆项目
@@ -105,7 +111,7 @@ npm install
 npm install --registry=https://registry.npm.taobao.org
 ```
 
-* 2.2 修改 `API` 地址
+#### 2.2 修改 `API` 地址
 
 编辑文件 `config/index.js`
 
@@ -125,22 +131,14 @@ npm install --registry=https://registry.npm.taobao.org
 
 > `target` 是请求的API地址
 
-## 运行
-
-* 1 后端服务
-
-```bash
-nohup ./your-project/target/vue-element-admin-api-1.0.0.jar
-```
-
-启动后 `http://localhost:7999` 是 `API` 服务网址
-
-* 2 前端页面
+#### 2.3 启动前端
 
 ```bash
 npm run dev
 ```
 
-打开浏览器访问 http://localhost:9527
+![服务启动](http://oflimcy5e.bkt.clouddn.com/ducafecat_2018-05-23-10-24-59.png)
 
-![后台面板](http://or45inefq.bkt.clouddn.com/heima-admin-dashboard.png)
+打开浏览器访问 http://localhost:8080
+
+![后台面板](http://oflimcy5e.bkt.clouddn.com/ducafecat_2018-05-22-17-51-42.png)

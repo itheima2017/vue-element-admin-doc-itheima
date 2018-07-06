@@ -1,6 +1,6 @@
 ![logo](http://or45inefq.bkt.clouddn.com/logo-heima150.png ':no-zoom')
 
-<h1> **黑马Admin** 商用后台模板 </h1>
+# **黑马Admin** 商用后台模板
 
 [![vue](https://img.shields.io/badge/vue-2.5.9-brightgreen.svg ':no-zoom')](https://github.com/vuejs/vue)
 [![element-ui](https://img.shields.io/badge/element--ui-2.0.5-brightgreen.svg ':no-zoom')](https://github.com/ElemeFE/element)
@@ -12,17 +12,17 @@
 
 提供一套标准的前后端分离模板，这样每次开发新管理项目，有个基础轮子可供使用。
 
-开发人员只要关注新业务构建就行。
-
-当前项目还在不断的从线上项目中抽取经验沉淀，欢迎大家提出宝贵建议 [issues](https://github.com/itheima2017/vue-element-admin-itheima/issues)。
-
-* [在线演示](http://research.itcast.cn/itheimaAdmin)
+* [在线演示](http://itheimaadmin.itcast.cn/preview/vue/dist)
 * 代码
-  * [前端代码 Vue](https://github.com/itheima2017/vue-element-admin-itheima)
-  * [后端代码 Java](https://github.com/itheima2017/vue-element-admin-api-java-itheima)
+  * [前端 Vue](https://github.com/itheima2017/vue-element-admin-itheima)
+  * [后端 Java](https://github.com/itheima2017/vue-element-admin-api-java-itheima)
 * 文档
   * [API 接口文档](http://research.itcast.cn/vue-element-admin-api-doc-itheima/_book/)
   * [使用帮助文档](http://research.itcast.cn/vue-element-admin-doc-itheima/)
+
+## 功能截图
+
+![后台面板](http://oflimcy5e.bkt.clouddn.com/ducafecat_2018-05-22-17-51-42.png)
 
 ## 功能
 
@@ -48,7 +48,7 @@
 
 ## 技术栈
 
-* 前端
+* 前端 vue
 
   * vue 2.5++
   * elementUI 2.2.2
@@ -57,7 +57,7 @@
   * vue-router
   * vue-i18n
 
-* 后端
+* 后端 java
 
   * Spring boot 2.0
   * Spring Security
@@ -75,19 +75,10 @@
   * jdk 8.++
   * maven 3.++
 
-## 功能截图
-
-![后台面板](http://or45inefq.bkt.clouddn.com/heima-admin-dashboard.png)
-
-### 快速开始
-
-* [开始阅读](getting-started.md)
-
-### 参考
+### 设计参考
 
 * [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro)
 * [PanJiaChen/vueAdmin-template](https://github.com/PanJiaChen/vueAdmin-template)
-* [docsify](https://github.com/QingWei-Li/docsify)
 
 ### 版权
 
