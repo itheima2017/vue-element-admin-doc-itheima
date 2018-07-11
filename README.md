@@ -17,8 +17,8 @@
   * [前端 Vue](https://github.com/itheima2017/vue-element-admin-itheima)
   * [后端 Java](https://github.com/itheima2017/vue-element-admin-api-java-itheima)
 * 文档
-  * [API 接口文档](http://research.itcast.cn/vue-element-admin-api-doc-itheima/_book/)
-  * [使用帮助文档](http://research.itcast.cn/vue-element-admin-doc-itheima/)
+  * [API 接口文档](http://itheimaadmin.itcast.cn/book/api/_book/)
+  * [使用帮助文档](http://itheimaadmin.itcast.cn/book/help/)
 
 ## 功能截图
 
