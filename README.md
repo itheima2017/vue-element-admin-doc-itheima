@@ -12,7 +12,7 @@
 
 提供一套标准的前后端分离模板，这样每次开发新管理项目，有个基础轮子可供使用。
 
-* [在线演示](http://itheimaadmin.itcast.cn/preview/vue/dist)
+* [在线演示](http://itheimaadmin.itcast.cn/preview)
 * 代码
   * [前端 Vue](https://github.com/itheima2017/vue-element-admin-itheima)
   * [后端 Java](https://github.com/itheima2017/vue-element-admin-api-java-itheima)
